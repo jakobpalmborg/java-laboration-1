@@ -22,7 +22,7 @@ public class Menu {
         else if (menuChoice.equals("3")) Sort.sort();
         else if (menuChoice.equals("4")) ChargeTime.chargeTime();
         else {
-            System.out.println("not valid input, try again");
+            System.out.println("inte ett giltigt val, försök igen");
             menu();
         }
     }
