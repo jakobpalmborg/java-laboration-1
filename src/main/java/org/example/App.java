@@ -1,9 +1,9 @@
 package org.example;
 
-import static org.example.Meny.meny;
+import static org.example.Menu.menu;
 
 public class App {
     public static void main(String[] args) {
-        meny();
+        menu();
     }
 }
