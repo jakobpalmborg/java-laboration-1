@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Menu {
     public static void menu() {
+
         System.out.println("Elpriser");
         System.out.println("========");
         System.out.println("1. Inmatning");
