@@ -6,9 +6,11 @@ public class Input {
 
     public static void input() {
 
-        Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Inmatning");
+        System.out.println("========");
         System.out.println("Fyll i priser i öre för varje timme");
+
+        Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < 24; i++) {
             HourPrice hourPrice = new HourPrice();

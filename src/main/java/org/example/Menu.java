@@ -17,7 +17,7 @@ public class Menu {
 
         String menuChoice = scanner.nextLine();
 
-        if (menuChoice.equals("e")) System.exit(0);
+        if (menuChoice.equals("e") || menuChoice.equals("E")) System.exit(0);
         else if (menuChoice.equals("1")) Input.input();
         else if (menuChoice.equals("2")) MinMaxAverage.minMaxAverage();
         else if (menuChoice.equals("3")) Sort.sort();
