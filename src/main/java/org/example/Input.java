@@ -18,14 +18,6 @@ public class Input {
             App.hourPriceArray[i] = hourPrice;
         }
 
-        /*
-        System.out.println("Elpris för varje timme:");
-        for(var hour : App.hourPriceArray) {
-            System.out.print("kl: " + hour.hour + " pris: " + hour.price + " öre, ");
-        }
-        System.out.println();
-        */
-
         Menu.menu();
     }
 }

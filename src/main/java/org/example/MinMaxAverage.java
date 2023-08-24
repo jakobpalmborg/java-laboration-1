@@ -3,14 +3,6 @@ package org.example;
 public class MinMaxAverage {
     public static void minMaxAverage() {
 
-       /*
-        System.out.println("Elpris för varje timme:");
-        for(var hour : App.hourPriceArray) {
-            System.out.print("kl: " + hour.hour + " pris: " + hour.price + " öre, ");
-        }
-        System.out.println();
-        */
-
         int maxValue = -1;
         int indexOfMaxValue = -1;
         for (int i = 0; i < App.hourPriceArray.length; i++) {
