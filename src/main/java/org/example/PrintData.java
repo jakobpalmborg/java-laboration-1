@@ -12,5 +12,5 @@ public class PrintData {
             }
         }
         Menu.menu();
-        }
+    }
 }

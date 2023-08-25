@@ -32,7 +32,7 @@ public class FileInput {
                 e.printStackTrace();
             }
         }
-        
+
         Menu.menu();
     }
 }
