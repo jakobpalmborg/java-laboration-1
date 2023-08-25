@@ -2,7 +2,6 @@ package org.example;
 
 import java.io.*;
 
-
 public class FileInput {
     public static void fileInput() {
         System.out.println("Inläsning Från Fil");
@@ -23,6 +22,7 @@ public class FileInput {
                 App.hourPriceArray[index] = hourPrice;
                 index++;
             }
+            System.out.println("Filen är inläst");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -32,11 +32,7 @@ public class FileInput {
                 e.printStackTrace();
             }
         }
-
-        for (var hour : App.hourPriceArray) {
-            System.out.println("kl: " + hour.hour + " pris: " + hour.price + " öre, ");
-        }
-
+        
         Menu.menu();
     }
 }

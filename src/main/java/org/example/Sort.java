@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class Sort {
 
-
     public static void sort() {
 
         System.out.println("Sortera");
