@@ -14,7 +14,7 @@ public class Input {
 
         for (int i = 0; i < 24; i++) {
             HourPrice hourPrice = new HourPrice();
-            hourPrice.hour = i + ":00-" + (i + 1) + ":00";
+            hourPrice.hour = (i < 10 ? "0" + i + ":00-" : i + ":00-") + (i == 23 ? "00:00" : i < 9 ? "0" + (i + 1) + ":00" : (i + 1) + ":00");
             System.out.println(hourPrice.hour);
             hourPrice.price = scanner.nextInt();
             App.hourPriceArray[i] = hourPrice;

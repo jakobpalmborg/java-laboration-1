@@ -32,6 +32,11 @@ public class FileInput {
                 e.printStackTrace();
             }
         }
+
+        for (var hour : App.hourPriceArray) {
+            System.out.println("kl: " + hour.hour + " pris: " + hour.price + " öre, ");
+        }
+
         Menu.menu();
     }
 }

@@ -35,8 +35,7 @@ public class Sort {
             }
 
             for (var hour : sortedArray) {
-                System.out.print("kl: " + hour.hour + " pris: " + hour.price + " öre, ");
-                System.out.println();
+                System.out.println("kl: " + hour.hour + " pris: " + hour.price + " öre, ");
             }
         }
         Menu.menu();
